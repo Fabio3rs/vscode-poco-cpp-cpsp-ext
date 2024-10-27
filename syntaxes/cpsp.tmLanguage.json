@@ -1,0 +1,23 @@
+{
+	"scopeName": "source.cpsp",
+	"patterns": [
+		{
+			"name": "meta.embedded.cpp",
+			"begin": "<%",
+			"end": "%>",
+			"patterns": [
+				{
+					"include": "source.cpp"
+				}
+			]
+		},
+		{
+			"include": "text.html.basic"
+		}
+	],
+	"repository": {},
+	"fileTypes": [
+		"cpsp"
+	],
+	"name": "CPSP"
+}

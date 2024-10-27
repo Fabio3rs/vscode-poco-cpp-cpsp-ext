@@ -1,0 +1,25 @@
+{
+  "name": "cpsp",
+  "displayName": "CPSP",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cpsp",
+      "aliases": ["cpsp", "cpsp"],
+      "extensions": [".cpsp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cpsp",
+      "scopeName": "source.cpsp",
+      "path": "./syntaxes/cpsp.tmLanguage.json"
+    }]
+  }
+}
